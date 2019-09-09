@@ -6,7 +6,7 @@ intro:
   blurbs:
     - image: /img/coffee.png
       text: >-
-        ## ZZZZ AGILE COACHING
+        xAGILE COACHING
 
 
         Scrum Masters and Agile Coaches bring an Agile and Lean mindset coupled
@@ -27,7 +27,7 @@ intro:
         can help.
     - image: /img/coffee-gear.png
       text: >-
-        ## FACILITATION
+        FACILITATION
 
 
         Facilitation is a core skill for an Agile Coach / Scrum Master. We have
@@ -48,7 +48,7 @@ intro:
         out](mailto:enquiry@agilitysystems.coach).
     - image: /img/tutorials.png
       text: >-
-        ## AGILE TRAINING
+        AGILE TRAINING
 
 
         The pace of change is accelerating, people are working on complex
@@ -66,7 +66,7 @@ intro:
         whilst providing a enjoyable learning experience.
     - image: /img/meeting-space.png
       text: >-
-        ## AGILE CONSULTING
+        AGILE CONSULTING
 
 
         Do you need specific help with Agile that’s not covered by our other

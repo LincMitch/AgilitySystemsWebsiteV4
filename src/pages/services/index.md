@@ -11,8 +11,9 @@ description: >-
 intro:
   blurbs:
     - image: /img/coffee.png
-      text: >
-        AGILE COACHING
+      text: >-
+        ## AGILE COACHING
+
 
         Scrum Masters and Agile Coaches bring an Agile and Lean mindset coupled
         with a depth of skills and on the ground experiences. They help teach,
@@ -27,11 +28,13 @@ intro:
 
         We can help as a Scrum Master or Agile Coach, our goal remains to
         support the growth of your people and organisation so that you are self
-        sufficient so we are no longer needed. Get in touch to explore further
-        how we can help.
+        sufficient so we are no longer needed. [Get in
+        touch](mailto:enquiry@agilitysystems.coach) to explore further how we
+        can help.
     - image: /img/coffee-gear.png
       text: >-
-        FACILITATION
+        ## FACILITATION
+
 
         Facilitation is a core skill for an Agile Coach / Scrum Master. We have
         facilitated hundreds of workshops over many years, from Inceptions that
@@ -47,10 +50,12 @@ intro:
         We create the right environment, ensuring all voices are heard, the
         energy and momentum is maintained and help the group in reaching
         consensus and making decisions. If you need help to facilitate an
-        upcoming workshop or Agile event please reach out.
+        upcoming workshop or Agile event please [reach
+        out](mailto:enquiry@agilitysystems.coach).
     - image: /img/tutorials.png
       text: >-
-        AGILE TRAINING
+        ## AGILE TRAINING
+
 
         The pace of change is accelerating, people are working on complex
         problems and dealing with increasing uncertainty. The need to learn,
@@ -58,16 +63,17 @@ intro:
 
 
         The Agile mindset and methods will help you navigate this complexity, 
-        welcoming change and reducing your time to market. Our training gives
-        you the knowledge you need to get started, we can also customise
-        training specific to your organisation.
+        welcoming change and reducing your time to market. Our
+        [training](training) gives you the knowledge you need to get started, we
+        can also customise training specific to your organisation.
 
 
         We favour an experiential learning approach that gets the point home
         whilst providing a enjoyable learning experience.
     - image: /img/meeting-space.png
       text: >-
-        AGILE CONSULTING
+        ## AGILE CONSULTING
+
 
         Do you need specific help with Agile that’s not covered by our other
         Services? You may want some specific advice, it might relate to problems

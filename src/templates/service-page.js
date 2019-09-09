@@ -98,7 +98,7 @@ export const servicePageQuery = graphql`
                 }
               }
             }
-            text
+            body
           }
         }
 

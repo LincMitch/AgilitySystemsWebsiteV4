@@ -18,7 +18,7 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Text", name: "text", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "pages"
@@ -43,12 +43,21 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Text", name: "text", widget: "markdown"}
       - file: "src/pages/services/index.md"
         label: "Services Page"
         name: "services"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "service-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: markdown}]}]}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Intro", name: "intro", widget: "object", 
+              fields: [
+                {label: "Blurbs", name: "blurbs", widget: "list", 
+                  fields: [
+                    {label: "Image", name: "image", widget: "image"}, 
+                    {label: "Body", name: "body", widget: "markdown"}
+                  ]
+                }
+              ]
+            }

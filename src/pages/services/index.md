@@ -5,11 +5,10 @@ image: /img/jumbotron.jpg
 intro:
   blurbs:
     - image: /img/coffee.png
-      text: >-
+      body: >-
         ## AGILE COACHING
-
-
-        xScrum Masters and Agile Coaches bring an Agile and Lean mindset coupled
+        
+        Scrum Masters and Agile Coaches bring an Agile and Lean mindset coupled
         with a depth of skills and on the ground experiences. They help teach,
         mentor, coach and facilitate organisations, product owners and teams
         through their journey towards greater business agility.
@@ -26,7 +25,7 @@ intro:
         touch](mailto:enquiry@agilitysystems.coach) to explore further how we
         can help.
     - image: /img/coffee-gear.png
-      text: >-
+      body: >-
         ## FACILITATION
 
 
@@ -47,7 +46,7 @@ intro:
         upcoming workshop or Agile event please [reach
         out](mailto:enquiry@agilitysystems.coach).
     - image: /img/tutorials.png
-      text: >-
+      body: >-
         ## AGILE TRAINING
 
 
@@ -65,7 +64,7 @@ intro:
         We favour an experiential learning approach that gets the point home
         whilst providing a enjoyable learning experience.
     - image: /img/meeting-space.png
-      text: >-
+      body: >-
         ## AGILE CONSULTING
 
 

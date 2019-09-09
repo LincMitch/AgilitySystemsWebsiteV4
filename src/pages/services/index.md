@@ -9,7 +9,7 @@ intro:
         ## AGILE COACHING
 
 
-        Scrum Masters and Agile Coaches bring an Agile and Lean mindset coupled
+        xScrum Masters and Agile Coaches bring an Agile and Lean mindset coupled
         with a depth of skills and on the ground experiences. They help teach,
         mentor, coach and facilitate organisations, product owners and teams
         through their journey towards greater business agility.

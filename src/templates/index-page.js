@@ -89,8 +89,8 @@ export const IndexPageTemplate = ({
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/services">
-                      See all services
+                    <Link className="btn" to="/products">
+                      See all products
                     </Link>
                   </div>
                 </div>
@@ -166,6 +166,13 @@ export const pageQuery = graphql`
             }
           }
         }
+        heading
+        subheading
+        mainpitch {
+          title
+          description
+        }
+        description
         intro {
           blurbs {
             image {
@@ -177,6 +184,8 @@ export const pageQuery = graphql`
             }
             text
           }
+          heading
+          description
         }
       }
     }

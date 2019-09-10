@@ -8,11 +8,11 @@ const ServicePagePreview = ({ entry, getAsset }) => {
 
   return (
     <div>ServicePageTemplate
-    <ServicePageTemplate
+    {/* <ServicePageTemplate
       image={entry.getIn(['data', 'image'])}
       title={entry.getIn(['data', 'title'])}
       intro={{ blurbs }}
-    />
+    /> */}
     </div>
   )
 }

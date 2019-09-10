@@ -7,11 +7,13 @@ const ServicePagePreview = ({ entry, getAsset }) => {
   const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
 
   return (
+    <div>ServicePageTemplate
     <ServicePageTemplate
       image={entry.getIn(['data', 'image'])}
       title={entry.getIn(['data', 'title'])}
       intro={{ blurbs }}
     />
+    </div>
   )
 }
 

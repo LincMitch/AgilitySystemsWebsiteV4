@@ -5,7 +5,7 @@ image: /img/jumbotron.jpg
 intro:
   blurbs:
     - image: /img/coffee.png
-      body: >-
+      text: >-
         ## AGILE COACHING
         
         Scrum Masters and Agile Coaches bring an Agile and Lean mindset coupled
@@ -25,7 +25,7 @@ intro:
         touch](mailto:enquiry@agilitysystems.coach) to explore further how we
         can help.
     - image: /img/coffee-gear.png
-      body: >-
+      text: >-
         ## FACILITATION
 
 
@@ -46,7 +46,7 @@ intro:
         upcoming workshop or Agile event please [reach
         out](mailto:enquiry@agilitysystems.coach).
     - image: /img/tutorials.png
-      body: >-
+      text: >-
         ## AGILE TRAINING
 
 
@@ -64,7 +64,7 @@ intro:
         We favour an experiential learning approach that gets the point home
         whilst providing a enjoyable learning experience.
     - image: /img/meeting-space.png
-      body: >-
+      text: >-
         ## AGILE CONSULTING
 
 

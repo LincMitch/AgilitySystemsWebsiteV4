@@ -6,7 +6,7 @@ intro:
   blurbs:
     - image: /img/coffee.png
       text: >-
-        ## xAGILE COACHING
+        ## AGILE COACHING
         
         Scrum Masters and Agile Coaches bring an Agile and Lean mindset coupled
         with a depth of skills and on the ground experiences. They help teach,

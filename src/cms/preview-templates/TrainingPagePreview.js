@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { AboutPageTemplate } from '../../templates/about-page'
+import { TrainingPageTemplate } from '../../templates/training-page'
 
-const AboutPagePreview = ({ entry, getAsset }) => {
+const TrainingPagePreview = ({ entry, getAsset }) => {
   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
   const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
 
   return (
     <div>
-    <AboutPageTemplate
+    <TrainingPageTemplate
       image={entry.getIn(['data', 'image'])}
       title={entry.getIn(['data', 'title'])}
       intro={{ blurbs }}
@@ -17,11 +17,11 @@ const AboutPagePreview = ({ entry, getAsset }) => {
   )
 }
 
-AboutPagePreview.propTypes = {
+TrainingPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
 }
 
-export default AboutPagePreview
+export default TrainingPagePreview

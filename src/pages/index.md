@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: AGILITY SYSTEMS
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Wherever you are in your journey, we're here to help
+subheading: Welcome to Agility Systems, we are Coaches and Scrum Masters who embrace a Systems Thinking approach to Agile Coaching. Systems have perpetuating properties and a wisdom of their own, we work from within, not to repair but to reveal its nature to its members and evoke transformation.
 mainpitch:
   title: Why Kaldi
   description: >

@@ -11,12 +11,11 @@ import {
   CardActionIcons,
   CardActionIcon,
   } from '@rmwc/card';
-import { Typography } from '@rmwc/typography';
-import '@material/typography/dist/mdc.typography.css';
-
 import '@material/card/dist/mdc.card.css';
 import '@material/button/dist/mdc.button.css';
 import '@material/icon-button/dist/mdc.icon-button.css';
+import { Typography } from '@rmwc/typography';
+import '@material/typography/dist/mdc.typography.css';
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
@@ -25,7 +24,7 @@ const FeatureGrid = ({ gridItems }) => (
       <div key={item.text} className="column is-6">
       
         <section className="section">
-        <Card style={{ width: '31rem', height: '50rem' }}>
+        <Card style={{ width: '31rem', height: '50rem'}}>
                 <CardPrimaryAction>
                   <CardMedia
                     sixteenByNine

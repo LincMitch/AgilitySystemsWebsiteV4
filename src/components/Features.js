@@ -1,8 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import showdown from 'showdown'
+
+const converter = new showdown.Converter()
+
 
 const FeatureGrid = ({ gridItems }) => (
+
+  
   <div className="columns is-multiline">
     {gridItems.map(item => (
       <div key={item.text} className="column is-6">
@@ -17,7 +23,9 @@ const FeatureGrid = ({ gridItems }) => (
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <p>{item.text}</p>
+
+          <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(item.text) }} />
+
         </section>
       </div>
     ))}

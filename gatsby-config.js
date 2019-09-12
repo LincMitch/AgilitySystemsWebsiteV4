@@ -75,6 +75,18 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
+
+    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark-frontmatter',
+      // default: { blacklist: [] }
+      options: {
+        // frontmatter fields to exclude, including all others
+        blacklist: ['templateKey']
+        // frontmatter fields to include, excluding all others
+        // whitelist: ['markdownField']
+      }
+    }
   ],
   // for avoiding CORS while developing Netlify Functions locally
   // read more: https://www.gatsbyjs.org/docs/api-proxy/#advanced-proxying

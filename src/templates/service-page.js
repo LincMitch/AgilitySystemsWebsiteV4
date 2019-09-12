@@ -98,7 +98,9 @@ export const servicePageQuery = graphql`
                 }
               }
             }
-            text
+            frontmattermd {
+              text
+            }
           }
         }
 

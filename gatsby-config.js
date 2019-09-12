@@ -58,16 +58,6 @@ module.exports = {
               destinationDir: 'static',
             },
           },
-          // {
-          //   resolve: 'gatsby-transformer-remark-frontmatter',
-          //   // default: { blacklist: [] }
-          //   options: {
-          //     // frontmatter fields to exclude, including all others
-          //     blacklist: ['templateKey']
-          //     // frontmatter fields to include, excluding all others
-          //     // whitelist: ['markdownField']
-          //   },
-          // },
         ],
       },
     },
